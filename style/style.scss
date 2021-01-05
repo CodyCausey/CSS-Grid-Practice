@@ -1,0 +1,21 @@
+@import "./variables";
+@import "./individualBoxStyling";
+@import "./mediaQueries";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  @include h1__style();
+  @include white__text__shadow();
+}
+
+body {
+  background: #a1a1a1;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+}

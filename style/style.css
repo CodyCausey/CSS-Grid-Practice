@@ -1,362 +1,222 @@
 .one {
-  background: -webkit-gradient(linear, left top, right top, from(#2980b9), color-stop(#6dd5fa), to(#2b61f5));
-  background: linear-gradient(to right, #2980b9, #6dd5fa, #2b61f5);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Yellowtail", cursive;
   margin: 5px;
   font-size: 2rem;
   text-align: center;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  -ms-grid-row: 2;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: linear-gradient(to right, #9bbf26, #e11111, #2b61f5);
   grid-area: one;
   text-shadow: 1px 1px 1px #f5f5f5;
 }
 
 .two {
-  background: -webkit-gradient(linear, left top, right top, from(#b92b27), to(#1565c0));
-  background: linear-gradient(to right, #b92b27, #1565c0);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Yellowtail", cursive;
   margin: 5px;
   font-size: 2rem;
   text-align: center;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  -ms-grid-row: 4;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: linear-gradient(to right, #b92b27, #1565c0);
   grid-area: two;
   color: #f5f5f5;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px rgba(235, 23, 23, 0.4078431373);
 }
 
 .three {
-  background: -webkit-gradient(linear, left top, right top, from(#c6ffdd), color-stop(#fbd786), to(#f7797d));
-  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Yellowtail", cursive;
   margin: 5px;
   font-size: 2rem;
   text-align: center;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  -ms-grid-row: 6;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
   grid-area: three;
   text-shadow: 1px 1px 1px #f5f5f5;
 }
 
 .four {
-  background: -webkit-gradient(linear, left top, right top, from(#8e2de2), to(#4a00e0));
-  background: linear-gradient(to right, #8e2de2, #4a00e0);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Yellowtail", cursive;
   margin: 5px;
   font-size: 2rem;
   text-align: center;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  -ms-grid-row: 8;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 1;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: linear-gradient(to right, #0ff448, #4a00e0);
   grid-area: four;
   color: #f5f5f5;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px rgba(235, 23, 23, 0.4078431373);
 }
 
 .five {
-  background: -webkit-gradient(linear, left top, right top, from(#f12711), to(#f5af19));
-  background: linear-gradient(to right, #f12711, #f5af19);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Yellowtail", cursive;
   margin: 5px;
   font-size: 2rem;
   text-align: center;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  -ms-grid-row: 9;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: linear-gradient(to right, #f12711, #f5af19);
   grid-area: five;
   text-shadow: 1px 1px 1px #f5f5f5;
 }
 
 .six {
-  background: -webkit-gradient(linear, left top, right top, from(#ed213a), to(#93291e));
-  background: linear-gradient(to right, #ed213a, #93291e);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Yellowtail", cursive;
   margin: 5px;
   font-size: 2rem;
   text-align: center;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  -ms-grid-row: 7;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 3;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: linear-gradient(to right, #ed213a, #93291e);
   grid-area: six;
   text-shadow: 1px 1px 1px #f5f5f5;
 }
 
 .seven {
-  background: -webkit-gradient(linear, left top, right top, from(#bc4e9c), to(#f80759));
-  background: linear-gradient(to right, #bc4e9c, #f80759);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Yellowtail", cursive;
   margin: 5px;
   font-size: 2rem;
   text-align: center;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  -ms-grid-row: 5;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 3;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: linear-gradient(to right, #bc4e9c, #f80759);
   grid-area: seven;
   text-shadow: 1px 1px 1px #f5f5f5;
 }
 
 .eight {
-  background: -webkit-gradient(linear, left top, right top, from(#11998e), to(#38ef7d));
-  background: linear-gradient(to right, #11998e, #38ef7d);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Yellowtail", cursive;
   margin: 5px;
   font-size: 2rem;
   text-align: center;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 3;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: linear-gradient(to right, #11998e, #38ef7d);
   grid-area: eight;
   text-shadow: 1px 1px 1px #f5f5f5;
 }
 
 .nine {
-  background: -webkit-gradient(linear, left top, right top, from(#cac531), to(#f3f9a7));
-  background: linear-gradient(to right, #cac531, #f3f9a7);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Yellowtail", cursive;
   margin: 5px;
   font-size: 2rem;
   text-align: center;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  -ms-grid-row: 2;
-  -ms-grid-column: 2;
-  -ms-grid-column-span: 2;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: linear-gradient(to right, #cac531, #f3f9a7);
   grid-area: nine;
   text-shadow: 1px 1px 1px #f5f5f5;
 }
 
 .ten {
-  background: -webkit-gradient(linear, left top, right top, from(#03001e), color-stop(#7303c0), to(#ec38bc));
-  background: linear-gradient(to right, #03001e, #7303c0, #ec38bc);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Yellowtail", cursive;
   margin: 5px;
   font-size: 2rem;
   text-align: center;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: linear-gradient(to right, #03001e, #7303c0, #ec38bc);
   color: #f5f5f5;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
   grid-area: ten;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px rgba(235, 23, 23, 0.4078431373);
 }
 
 .eleven {
-  background: -webkit-gradient(linear, left top, right top, from(#000000), to(#0f9b0f));
-  background: linear-gradient(to right, #000000, #0f9b0f);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Yellowtail", cursive;
   margin: 5px;
   font-size: 2rem;
   text-align: center;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: linear-gradient(to right, #000000, #0f9b0f);
   color: #f5f5f5;
-  -ms-grid-row: 5;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
   grid-area: eleven;
-  text-shadow: 1px 1px 1px #000;
+  text-shadow: 1px 1px 1px rgba(235, 23, 23, 0.4078431373);
 }
 
 .twelve {
-  background: -webkit-gradient(linear, left top, right top, from(#e44d26), to(#f16529));
-  background: linear-gradient(to right, #e44d26, #f16529);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Yellowtail", cursive;
   margin: 5px;
   font-size: 2rem;
   text-align: center;
   border-radius: 5px;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-          box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-  -ms-grid-row: 7;
-  -ms-grid-row-span: 2;
-  -ms-grid-column: 2;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  background: linear-gradient(to right, #0b226e, #f16529);
   grid-area: twelve;
   text-shadow: 1px 1px 1px #f5f5f5;
 }
 
 .container {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr 2fr 1fr;
-      grid-template-columns: 1fr 2fr 1fr;
-  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   padding: 15px;
   height: 100vh;
   max-width: 1300px;
   margin: 0 auto;
   min-height: 600px;
-  -webkit-column-gap: 15px;
-          column-gap: 15px;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
   row-gap: 5px;
-      grid-template-areas: ". H1 ." "one nine nine" "one ten eight" "two ten eight" "two eleven seven" "three eleven seven" "three twelve six" "four twelve six" "four five five";
+  grid-template-areas: ". H1 ." "one nine nine" "one ten eight" "two ten eight" "two eleven seven" "three eleven seven" "three twelve six" "four twelve six" "four five five";
 }
 
 @media screen and (min-width: 500px) {
   .container {
-        grid-template-areas: ". H1 ." "one nine nine" "one ten eight" "one ten seven" "two eleven seven" "three twelve seven" "three twelve six" "four twelve six" "four five five";
-    -ms-grid-columns: 1.5fr 2.5fr 1.5fr;
-        grid-template-columns: 1.5fr 2.5fr 1.5fr;
+    grid-template-areas: ". H1 ." "one nine nine" "one ten eight" "one ten seven" "two eleven seven" "three twelve seven" "three twelve six" "four twelve six" "four five five";
+    grid-template-columns: 1.5fr 2.5fr 1.5fr;
   }
 }
-
 @media screen and (min-width: 650px) {
   .container {
-        grid-template-areas: ". H1 ." "one nine nine" "one ten seven" "one ten seven" "one eleven seven" "three twelve seven" "three twelve six" "four twelve six" "four twelve five";
-    -ms-grid-columns: 2fr 3fr 2fr;
-        grid-template-columns: 2fr 3fr 2fr;
+    grid-template-areas: ". H1 ." "one nine nine" "one ten seven" "one ten seven" "one eleven seven" "three twelve seven" "three twelve six" "four twelve six" "four twelve five";
+    grid-template-columns: 2fr 3fr 2fr;
   }
   .container .two,
   .container .eight {
     display: none;
   }
 }
-
 @media screen and (min-width: 800px) {
   .container {
-        grid-template-areas: ". H1 ." "one nine nine" "one ten seven" "one ten seven" "one twelve seven" "one twelve seven" "three twelve seven" "four twelve six" "four twelve five";
-    -ms-grid-columns: 2fr 3.5fr 2fr;
-        grid-template-columns: 2fr 3.5fr 2fr;
+    grid-template-areas: ". H1 ." "one nine nine" "one ten seven" "one ten seven" "one twelve seven" "one twelve seven" "three twelve seven" "four twelve six" "four twelve five";
+    grid-template-columns: 2fr 3.5fr 2fr;
   }
   .container .two,
   .container .eight,
@@ -364,12 +224,10 @@
     display: none;
   }
 }
-
 @media screen and (min-width: 950px) {
   .container {
-        grid-template-areas: ". H1 ." "one nine nine" "one ten seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "four twelve seven" "four twelve five";
-    -ms-grid-columns: 2.5fr 3.5fr 2.5fr;
-        grid-template-columns: 2.5fr 3.5fr 2.5fr;
+    grid-template-areas: ". H1 ." "one nine nine" "one ten seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "four twelve seven" "four twelve five";
+    grid-template-columns: 2.5fr 3.5fr 2.5fr;
   }
   .container .two,
   .container .eight,
@@ -379,12 +237,10 @@
     display: none;
   }
 }
-
 @media screen and (min-width: 1100px) {
   .container {
-        grid-template-areas: ". H1 ." "one nine seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "four twelve five";
-    -ms-grid-columns: 3fr 3.5fr 3fr;
-        grid-template-columns: 3fr 3.5fr 3fr;
+    grid-template-areas: ". H1 ." "one nine seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "four twelve five";
+    grid-template-columns: 3fr 3.5fr 3fr;
   }
   .container .two,
   .container .eight,
@@ -395,12 +251,10 @@
     display: none;
   }
 }
-
 @media screen and (min-width: 1250px) {
   .container {
-        grid-template-areas: ". H1 ." "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven";
-    -ms-grid-columns: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: ". H1 ." "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven" "one twelve seven";
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .container .two,
   .container .eight,
@@ -414,25 +268,19 @@
     display: none;
   }
   .container .h1__hidden {
-    display: -ms-grid;
     display: grid;
   }
   .container h1 {
     display: none;
   }
 }
-
 .h1__hidden {
   display: none;
   justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-top: 10px;
   text-align: center;
   font-family: "Yellowtail", cursive;
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
   grid-area: H1;
   font-size: 2.5rem;
   text-shadow: 1px 1px 1px #f5f5f5;
@@ -441,20 +289,15 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1 {
   justify-items: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin-top: 10px;
   text-align: center;
   font-family: "Yellowtail", cursive;
-  -ms-grid-row: 1;
-  -ms-grid-column: 2;
   grid-area: H1;
   font-size: 2.5rem;
   text-shadow: 1px 1px 1px #f5f5f5;
@@ -465,5 +308,4 @@ body {
   height: 100vh;
   width: 100%;
   margin: 0 auto;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

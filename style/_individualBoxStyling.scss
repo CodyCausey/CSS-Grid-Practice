@@ -1,8 +1,6 @@
 // Individual Box Styling
 .one {
-	@include inside__box__styling(
-		linear-gradient(to right, #2980b9, #6dd5fa, #2b61f5)
-	);
+	@include inside__box__styling(linear-gradient(to right, #9bbf26, #e11111, #2b61f5));
 	grid-area: one;
 	@include white__text__shadow();
 }
@@ -15,15 +13,13 @@
 }
 
 .three {
-	@include inside__box__styling(
-		linear-gradient(to right, #c6ffdd, #fbd786, #f7797d)
-	);
+	@include inside__box__styling(linear-gradient(to right, #c6ffdd, #fbd786, #f7797d));
 	grid-area: three;
 	@include white__text__shadow();
 }
 
 .four {
-	@include inside__box__styling(linear-gradient(to right, #8e2de2, #4a00e0));
+	@include inside__box__styling(linear-gradient(to right, #0ff448, #4a00e0));
 	grid-area: four;
 	color: #f5f5f5;
 	@include black__text__shadow();
@@ -60,9 +56,7 @@
 }
 
 .ten {
-	@include inside__box__styling(
-		linear-gradient(to right, #03001e, #7303c0, #ec38bc)
-	);
+	@include inside__box__styling(linear-gradient(to right, #03001e, #7303c0, #ec38bc));
 	color: #f5f5f5;
 	grid-area: ten;
 	@include black__text__shadow();
@@ -76,7 +70,7 @@
 }
 
 .twelve {
-	@include inside__box__styling(linear-gradient(to right, #e44d26, #f16529));
+	@include inside__box__styling(linear-gradient(to right, #0b226e, #f16529));
 	grid-area: twelve;
 	@include white__text__shadow();
 }
